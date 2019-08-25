@@ -745,6 +745,11 @@
 		05FDFC84168950F600463E43 /* PLCrashMachExceptionServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FDFC83168950F600463E43 /* PLCrashMachExceptionServerTests.m */; };
 		05FDFC85168950F600463E43 /* PLCrashMachExceptionServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FDFC83168950F600463E43 /* PLCrashMachExceptionServerTests.m */; };
 		05FDFC86168950F600463E43 /* PLCrashMachExceptionServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FDFC83168950F600463E43 /* PLCrashMachExceptionServerTests.m */; };
+		242FDFA223127FCB005BA821 /* protobuf-c.c in Sources */ = {isa = PBXBuildFile; fileRef = 246F9DBF230980A500E230B7 /* protobuf-c.c */; };
+		242FDFA323127FD8005BA821 /* protobuf-c.c in Sources */ = {isa = PBXBuildFile; fileRef = 246F9DBF230980A500E230B7 /* protobuf-c.c */; };
+		242FDFA423127FD9005BA821 /* protobuf-c.c in Sources */ = {isa = PBXBuildFile; fileRef = 246F9DBF230980A500E230B7 /* protobuf-c.c */; };
+		242FDFA523127FD9005BA821 /* protobuf-c.c in Sources */ = {isa = PBXBuildFile; fileRef = 246F9DBF230980A500E230B7 /* protobuf-c.c */; };
+		242FDFA723127FDB005BA821 /* protobuf-c.c in Sources */ = {isa = PBXBuildFile; fileRef = 246F9DBF230980A500E230B7 /* protobuf-c.c */; };
 		246F9DC0230980B500E230B7 /* protobuf-c.c in Sources */ = {isa = PBXBuildFile; fileRef = 246F9DBF230980A500E230B7 /* protobuf-c.c */; };
 		246F9DC1230980B600E230B7 /* protobuf-c.c in Sources */ = {isa = PBXBuildFile; fileRef = 246F9DBF230980A500E230B7 /* protobuf-c.c */; };
 		246F9DC2230980B600E230B7 /* protobuf-c.c in Sources */ = {isa = PBXBuildFile; fileRef = 246F9DBF230980A500E230B7 /* protobuf-c.c */; };
@@ -1258,7 +1263,7 @@
 				"$(DERIVED_FILE_DIR)/$(CURRENT_ARCH)/$(INPUT_FILE_BASE)User.c",
 				"$(DERIVED_FILE_DIR)/$(CURRENT_ARCH)/$(INPUT_FILE_BASE).h",
 			);
-			script = "# Work-around for Xcode 4 handling of spaces in paths passed to mig(1) target. This issue was fixed in Xcode 5,\n# and this custom rule may be deleted once Xcode 5 is required by the project.\nmig -arch \"${CURRENT_ARCH}\" -header \"${DERIVED_FILE_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}.h\" -server /dev/null -user \"${DERIVED_FILE_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}User.c\" \"${INPUT_FILE_PATH}\"";
+			script = "# Work-around for Xcode 4 handling of spaces in paths passed to mig(1) target. This issue was fixed in Xcode 5,\n# and this custom rule may be deleted once Xcode 5 is required by the project.\nmig -arch \"${CURRENT_ARCH}\" -header \"${DERIVED_FILE_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}.h\" -server /dev/null -user \"${DERIVED_FILE_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}User.c\" \"${INPUT_FILE_PATH}\"\n";
 		};
 		059670E20EEFAD8C008A0601 /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
@@ -1272,7 +1277,7 @@
 				"${DERIVED_FILES_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}.pb-c.c",
 				"${DERIVED_FILES_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}.pb-c.h",
 			);
-			script = "cd \"${INPUT_FILE_DIR}\" && \"${SRCROOT}/Dependencies/protobuf-2.0.3/bin/protoc-c\" --c_out=\"${DERIVED_FILES_DIR}/${CURRENT_ARCH}\" \"${INPUT_FILE_NAME}\"";
+			script = "cd \"${INPUT_FILE_DIR}\" && \"${SRCROOT}/Dependencies/protobuf-c-1.3.2/bin/protoc-c\" --c_out=\"${DERIVED_FILES_DIR}/${CURRENT_ARCH}\" \"${INPUT_FILE_NAME}\"\n";
 		};
 		0596747A0EF0BA2F008A0601 /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
@@ -1286,7 +1291,7 @@
 				"${DERIVED_FILES_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}.pb-c.c",
 				"${DERIVED_FILES_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}.pb-c.h",
 			);
-			script = "cd \"${INPUT_FILE_DIR}\" && \"${SRCROOT}/Dependencies/protobuf-2.0.3/bin/protoc-c\" --c_out=\"${DERIVED_FILES_DIR}/${CURRENT_ARCH}\" \"${INPUT_FILE_NAME}\"";
+			script = "cd \"${INPUT_FILE_DIR}\" && \"${SRCROOT}/Dependencies/protobuf-c-1.3.2/bin/protoc-c\" --c_out=\"${DERIVED_FILES_DIR}/${CURRENT_ARCH}\" \"${INPUT_FILE_NAME}\"\n";
 		};
 		0596747B0EF0BA2F008A0601 /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
@@ -1300,7 +1305,7 @@
 				"${DERIVED_FILES_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}.pb-c.c",
 				"${DERIVED_FILES_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}.pb-c.h",
 			);
-			script = "cd \"${INPUT_FILE_DIR}\" && \"${SRCROOT}/Dependencies/protobuf-2.0.3/bin/protoc-c\" --c_out=\"${DERIVED_FILES_DIR}/${CURRENT_ARCH}\" \"${INPUT_FILE_NAME}\"";
+			script = "cd \"${INPUT_FILE_DIR}\" && \"${SRCROOT}/Dependencies/protobuf-c-1.3.2/bin/protoc-c\" --c_out=\"${DERIVED_FILES_DIR}/${CURRENT_ARCH}\" \"${INPUT_FILE_NAME}\"\n";
 		};
 		05E7320E0EFA1B60005EDFB7 /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
@@ -1411,7 +1416,7 @@
 				"${DERIVED_FILES_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}.pb-c.c",
 				"${DERIVED_FILES_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}.pb-c.h",
 			);
-			script = "cd \"${INPUT_FILE_DIR}\" && \"${SRCROOT}/Dependencies/protobuf-2.0.3/bin/protoc-c\" --c_out=\"${DERIVED_FILES_DIR}/${CURRENT_ARCH}\" \"${INPUT_FILE_NAME}\"";
+			script = "cd \"${INPUT_FILE_DIR}\" && \"${SRCROOT}/Dependencies/protobuf-c-1.3.2/bin/protoc-c\" --c_out=\"${DERIVED_FILES_DIR}/${CURRENT_ARCH}\" \"${INPUT_FILE_NAME}\"\n";
 		};
 		8064D9911C4D27E2005A8B4C /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
@@ -1425,7 +1430,7 @@
 				"${DERIVED_FILES_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}.pb-c.c",
 				"${DERIVED_FILES_DIR}/${CURRENT_ARCH}/${INPUT_FILE_BASE}.pb-c.h",
 			);
-			script = "cd \"${INPUT_FILE_DIR}\" && \"${SRCROOT}/Dependencies/protobuf-2.0.3/bin/protoc-c\" --c_out=\"${DERIVED_FILES_DIR}/${CURRENT_ARCH}\" \"${INPUT_FILE_NAME}\"";
+			script = "cd \"${INPUT_FILE_DIR}\" && \"${SRCROOT}/Dependencies/protobuf-c-1.3.2/bin/protoc-c\" --c_out=\"${DERIVED_FILES_DIR}/${CURRENT_ARCH}\" \"${INPUT_FILE_NAME}\"\n";
 		};
 /* End PBXBuildRule section */
 
@@ -4006,6 +4011,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				242FDFA223127FCB005BA821 /* protobuf-c.c in Sources */,
 				05CD33A30EE94931000FDE88 /* PLCrashSignalHandlerTests.m in Sources */,
 				059666E30EEDDFCC008A0601 /* PLCrashFrameWalkerTests.m in Sources */,
 				0596702E0EEF6B51008A0601 /* PLCrashLogWriterTests.m in Sources */,
@@ -4123,6 +4129,7 @@
 				05E734850EFAD83B005EDFB7 /* PLCrashAsyncSignalInfoTests.m in Sources */,
 				059C9D7D13AE46E40071956F /* PLCrashAsyncImageList.cpp in Sources */,
 				052A46F813637DE000987004 /* PLCrashAsyncImageListTests.m in Sources */,
+				242FDFA323127FD8005BA821 /* protobuf-c.c in Sources */,
 				05BB84901364EE1500D53B84 /* PLCrashSysctlTests.m in Sources */,
 				059C9D7C13AE46E10071956F /* PLCrashSysctl.c in Sources */,
 				05EB2B1815B6FDA80066EB4D /* PLCrashReporterNSError.m in Sources */,
@@ -4239,6 +4246,7 @@
 				05FDFC86168950F600463E43 /* PLCrashMachExceptionServerTests.m in Sources */,
 				052951EC1696965E006EDA8A /* PLCrashLogWriterEncodingTests.m in Sources */,
 				052951F11696A461006EDA8A /* PLCrashLogWriterEncodingTests.proto in Sources */,
+				242FDFA423127FD9005BA821 /* protobuf-c.c in Sources */,
 				058484AE1804841100A56049 /* unwind_test_arm64_frameless.S in Sources */,
 				05A533E016D6ACBF00C5E2B3 /* PLCrashFrameStackUnwindTests.m in Sources */,
 				05A17DBA16D7E37100888448 /* PLCrashFrameStackUnwind.c in Sources */,
@@ -4561,6 +4569,7 @@
 				8064D8DB1C4D27DF005A8B4C /* PLCrashAsyncMObject.c in Sources */,
 				8064D8DC1C4D27DF005A8B4C /* PLCrashAsyncMObjectTests.m in Sources */,
 				8064D8DD1C4D27DF005A8B4C /* PLCrashAsyncObjCSection.mm in Sources */,
+				242FDFA523127FD9005BA821 /* protobuf-c.c in Sources */,
 				8064D8DE1C4D27DF005A8B4C /* PLCrashAsyncObjCSectionTests.m in Sources */,
 				8064D8DF1C4D27DF005A8B4C /* PLCrashAsyncSymbolication.c in Sources */,
 				8064D8E01C4D27DF005A8B4C /* PLCrashAsyncSymbolicationTests.m in Sources */,
@@ -4646,6 +4655,7 @@
 				8064D93C1C4D27E2005A8B4C /* PLCrashReporterTests.m in Sources */,
 				8064D93E1C4D27E2005A8B4C /* PLCrashReportTests.m in Sources */,
 				8064D93F1C4D27E2005A8B4C /* PLCrashAsyncSignalInfo.c in Sources */,
+				242FDFA723127FDB005BA821 /* protobuf-c.c in Sources */,
 				8064D9401C4D27E2005A8B4C /* PLCrashAsyncSignalInfoTests.m in Sources */,
 				8064D9411C4D27E2005A8B4C /* PLCrashAsyncImageList.cpp in Sources */,
 				8064D9421C4D27E2005A8B4C /* PLCrashAsyncImageListTests.m in Sources */,
@@ -5052,6 +5062,7 @@
 				ARCHS = "$(PL_ARM_ARCHS)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(BUILD_ROOT)",
@@ -5082,6 +5093,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(BUILD_ROOT)",
@@ -5339,7 +5351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				EFFECTIVE_PLATFORM_NAME = "-MacOSX";
@@ -5366,7 +5378,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -5456,6 +5468,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_THUMB_SUPPORT = NO;
@@ -5489,6 +5502,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "Resources/Tests-iPhone-Info.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
@@ -5620,7 +5634,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				EFFECTIVE_PLATFORM_NAME = "-MacOSX";
@@ -5648,7 +5662,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -5744,7 +5758,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Source/PLCrashNamespace.h";
 				GCC_PREPROCESSOR_DEFINITIONS = PLCR_PRIVATE;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Dependencies/protobuf-c-1.3.2/include\"/**";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Dependencies/protobuf-c-1.3.2/include\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
@@ -5787,7 +5801,7 @@
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/$(DERIVED_FILES_DIR)\"",
-					"\"$(SRCROOT)/Dependencies/protobuf-c-1.3.2/include\"/**",
+					"\"$(SRCROOT)/Dependencies/protobuf-c-1.3.2/include\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CFLAGS = (
