@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashLogWriter.m \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashNamespace.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReport.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportApplicationInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportBinaryImageInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportProcessorInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportExceptionInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportThreadInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportStackFrameInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportSymbolInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportRegisterInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportMachineInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportMachExceptionInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportProcessInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportSignalInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashReportSystemInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashLogWriter.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashAsync.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashAsyncImageList.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashAsyncMachOImage.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashAsyncMObject.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashFrameWalker.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashAsyncThread.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashAsyncThread_x86.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashAsyncThread_arm.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashAsyncSymbolication.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashAsyncObjCSection.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashAsyncMachOString.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashLogWriterEncoding.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashAsyncSignalInfo.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashSysctl.h \
+  /Users/dan/Documents/Projects/iStratus/iStratus---Primary/iStratus/3rd\ Party\ Libraries/PLCrashReporter/Source/PLCrashProcessInfo.h
